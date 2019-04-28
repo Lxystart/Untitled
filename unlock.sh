@@ -56,7 +56,7 @@ check_port() {
         [[ -z "$port" ]] && port="10001"
         echo $((${port} + 0)) &>/dev/null
         if [[ $? -eq 0 ]]; then
-            if [[ ${port} -ge 1 ]] && [[ ${port} -le 65535 ]]; then
+            if [[ ${port} -ge 10000 ]] && [[ ${port} -le 65535 ]]; then
                 echo
                 echo "——————————————————————————————"
                 echo -e "	端口设置为 : ${Red_background_prefix} ${port} ${Font_color_suffix}"
