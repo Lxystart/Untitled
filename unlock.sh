@@ -41,8 +41,6 @@ check_sys() {
     #bit=`uname -m`
 }
 check_port() {
-    while true 
-    do
         echo -e '按Ctrl + C 取消执行脚本' | _color_ red invert
         echo
         echo -e '网络通畅的话2分钟左右完成，请耐心等待。' | _color_ green bold
@@ -51,6 +49,8 @@ check_port() {
         echo
         echo -e "请输入你要设置的网易云音乐的 端口 [10000-65535] " | _color_ cyan bold
         echo
+    while true 
+    do
         read -e -p "(默认端口: 10001):" port
         
         [[ -z "$port" ]] && port="10001"
