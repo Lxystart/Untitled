@@ -13,13 +13,13 @@
 
 clear
 echo
-echo "#############################################################"  
-echo "#解锁网易云音乐客户端变灰歌曲                               #"    
-echo "# Learn address:https://github.com/ToyoDAdoubi/doubi        #"
-echo "# Author: https://github.com/Lxystart                       #"
-echo "# Github: https://github.com/nondanee/UnblockNeteaseMusic   #"
-echo "# Date:   2019-04-27                                        #"
-echo "#############################################################"  
+#echo "#############################################################"  
+echo "解锁网易云音乐客户端变灰歌曲                               "    
+#echo "# Learn address:https://github.com/ToyoDAdoubi/doubi        #"
+#echo "# Author: https://github.com/Lxystart                       #"
+#echo "# Github: https://github.com/nondanee/UnblockNeteaseMusic   #"
+echo " Last Date:   2019-04-27                                        "
+#echo "#############################################################"  
 echo
 
 check_sys() {
