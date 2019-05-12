@@ -64,7 +64,7 @@ check_port() {
                 echo
                 break
             else
-                echo -e "${Error} 请输入正确的数字 !" _color_ red bold
+                echo -e "${Error} 请输入正确的数字 !" | _color_ red bold
             fi
         else
             echo -e "${Error} 请输入正确的数字 !"
