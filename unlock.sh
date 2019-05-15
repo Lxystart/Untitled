@@ -45,7 +45,7 @@ check_port() {
         echo
         echo -e '网络通畅的话2分钟左右完成，请耐心等待。' | _color_ green bold
         echo
-        echo -e '支持Debian 9+  Ubuntu 16.04+  CebtOS 7+'
+        echo -e '支持Debian 9+  Ubuntu 16.04+  CentOS 7+'
         echo
         echo -e "请输入你要设置的网易云音乐的 端口 [10000-65535] " | _color_ cyan bold
         echo
