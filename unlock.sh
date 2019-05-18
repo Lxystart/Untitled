@@ -1,4 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env bash
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+export PATH
 #解锁网易云音乐客户端变灰歌曲
 #Linxu初学者写的渣渣 整合脚本 第一次写，写的有点蠢  ---1802
 #发行版本判断  使用的逗逼大佬的代码，膜拜大佬。
